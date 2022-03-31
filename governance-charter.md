@@ -59,7 +59,7 @@ It may require signing a Contributor License Agreement should it be introduced i
 
 #### Maintainers
 
-Maintainers take responsibility for maintaining Carbonout projects and repositories.
+Maintainers take responsibility for maintaining Carbonaut projects and repositories.
 They review and integrate changes submitted to their repositories,
 and also ensure that the decision making process is followed.
 Maintainer status can be granted within a single repository or within the entire GitHub organization.

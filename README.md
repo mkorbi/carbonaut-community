@@ -1,19 +1,19 @@
-# Carbonout Community
+# Carbonaut Community
 
-## Welcome to the Carbonout community!
+## Welcome to the Carbonaut community!
 
 We are currently in the process of setting up the open source project. Watch this repository to track changes with updates on the community.
 
 ## Roadmap
 
-The project roadmap is available [here](https://github.com/orgs/carbonout/projects/1).
+The project roadmap is available [here](https://github.com/orgs/carbonaut/projects/1).
 New initiatives for the roadmap will be marked as `roadmap-proposal` by a maintainer. A community decision will then be made as documented in [Decision Making](./governance-charter.md#decision-making).
 
 ## Contributing
 
 All contributors are welcome!
 Please see the contributing guidelines
-[here](https://github.com/carbonout/community/blob/main/CONTRIBUTING.md).
+[here](https://github.com/carbonaut/community/blob/main/CONTRIBUTING.md).
 
 ### Contributing prerequisites (CLA/DCO)
 
@@ -30,13 +30,13 @@ We will establish a governance following the CNCF recommended practices. Until t
 
 We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation. We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
-The project and its community abide by [the Code of Conduct](https://github.com/carbonout/community/blob/main/CODE_OF_CONDUCT.md).
+The project and its community abide by [the Code of Conduct](https://github.com/carbonaut/community/blob/main/CODE_OF_CONDUCT.md).
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org),
 version 2.1, available
 [here](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html).
 
 ## License
 
-Carbonout is an open specification and open source project.
+Carbonaut is an open specification and open source project.
 Unless another license is specified explicitly,
 all contents in this GitHub organization are licensed under [Apache License v2](./LICENSE).

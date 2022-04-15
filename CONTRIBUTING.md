@@ -55,6 +55,10 @@ git rebase main
 git push -f my_feature_branch
 ```
 
+### Workflow
+
+![contribution-workflow](/img/carbonaut-contributing-workflow-v3.png)
+
 ## Scope of pull requests
 
 We prefer small incremental changes that can be reviewed and merged quickly.

@@ -1,12 +1,16 @@
 # Contributing to Carbonaut
 
+This file describes how you can contribute to the project. We follow a common git workflow to make changes that drives with opening pull requests from forked repositories.
+
 ## GitHub Workflow
 
 The recommended workflow is to fork this repository and open pull requests from your fork.
 
+![contribution-workflow](/img/carbonaut-contributing-workflow-v3.png)
+
 ### 1. Fork, clone & configure Carbonaut upstream
 
-- Click on the _Fork_ button on GitHub
+- Click on the _Fork_ [button on GitHub]( https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 - Clone your fork
 - Add the upstream repository as a new remote
 
@@ -31,7 +35,7 @@ git checkout -b my_feature_branch
 git commit -s
 
 # Push your new feature branch
-git push my_feature_branch
+git push --set-upstream origin my_feature_branch
 
 # Create a new pull request from https://github.com/carbonaut-cloud/$REPOSITORY
 ```
@@ -54,10 +58,6 @@ git rebase main
 # Update your pull request with latest changes
 git push -f my_feature_branch
 ```
-
-### Workflow
-
-![contribution-workflow](/img/carbonaut-contributing-workflow-v3.png)
 
 ## Scope of pull requests
 
@@ -85,6 +85,8 @@ All commit messages must contain the Signed-off-by line with an email address th
 ```sh
 git commit -s
 ```
+
+You can find more about this [here]( https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits).
 
 The Signed-off-by line must match the **author's real name**, otherwise the PR will be rejected.
 

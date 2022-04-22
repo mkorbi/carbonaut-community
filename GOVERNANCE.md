@@ -13,6 +13,6 @@ Names added to this file should be in the following format:
 
 * Max Körbächer, @mkorbi
 * Leonard Pahlke, @leonardpahlke
-* ???
+* Sven Pfennig, @0xE282B0
 
 GitHub team: `@carbonaut/governance`

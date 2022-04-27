@@ -15,6 +15,8 @@ What types of changes does your code introduce to Carbonaut?
 /kind bug-fix
 /kind governance
 /kind clean-up
+
+If multiple apply elaborate why multiple labels apply, thank you!
 -->
 
 
@@ -40,6 +42,8 @@ or
 <!-- 
 Please don't hesitate to use this section! 
 It is often a good idea to reference other issues, provide context or elaborate other options you explored...
+
+You can ask for reviews with /cc <github username>
 -->
 
 `None`

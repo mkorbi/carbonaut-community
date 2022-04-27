@@ -2,6 +2,9 @@
 - color: c4d471
   name: duplicate
   description: This issue or pull request already exists
+- color: D4C5F9
+  name: dependencies
+  description: Pull requests that update a dependency file
 - color: 006B75
   name: help wanted
   description: Extra attention is needed
@@ -19,6 +22,11 @@
 - color: D93F0B
   name: hold/do-not-merge
   description: Do not merge! - label bots are looking out for
+
+# Warning labels
+- color: B60205
+  name: warning/breaking-change
+  description: Changes made will not be compatible with prior versions - A major breaking change is marked
 
 # Needs
 - color: cc40d8
@@ -39,7 +47,7 @@
 # Kind
 - color: 3410B8
   name: kind/epic
-  description: EPIC / Tracking issue that is used to bundle a larger effort
+  description: Used for issues tracking a larger effort
 - color: B60205
   name: kind/bug
   description: Something isn't working
@@ -50,23 +58,14 @@
   name: kind/feature
   description: New feature request
 - color: e7e9eb
-  name: kind/question
-  description: Generic question
-- color: e7e9eb
   name: kind/governance
   description: Non feature change that makes governance changes 
 - color: 0075ca
   name: kind/docs
   description: Non feature documentation change
 - color: e7e9eb
-  name: kind/refactor
-  description: Non feature refactor change
-- color: B60205
-  name: kind/breaking-change
-  description: Changes made will not be compatible with prior versions - A major breaking change is marked
-- color: e7e9eb
-  name: kind/dependencies
-  description: Pull requests that update a dependency file
+  name: kind/clean-up
+  description: Refactoring with no feature changes
 
 # Priority
 - color: B60205

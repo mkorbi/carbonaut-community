@@ -12,5 +12,26 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: micnncim/action-label-syncer@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN_LABEL_SYNC }}
+        with:
+          manifest: .github/labels.yml
+          repository: |
+              carbonaut-cloud/community
+          token: ${{ secrets.GH_LABEL_TOKEN }}
+      - uses: micnncim/action-label-syncer@v1
+        with:
+          manifest: .github/labels.yml
+          repository: |
+              carbonaut-cloud/carbonaut
+          token: ${{ secrets.GH_LABEL_TOKEN }}
+      - uses: micnncim/action-label-syncer@v1
+        with:
+          manifest: .github/labels.yml
+          repository: |
+              carbonaut-cloud/carbonaut-governance-bot
+          token: ${{ secrets.GH_LABEL_TOKEN }}
+      - uses: micnncim/action-label-syncer@v1
+        with:
+          manifest: .github/labels.yml
+          repository: |
+              carbonaut-cloud/carbonaut-cloud.github.io
+          token: ${{ secrets.GH_LABEL_TOKEN }}

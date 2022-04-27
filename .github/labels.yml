@@ -43,6 +43,9 @@
 - color: cc40d8
   name: merge/squash
   description: Merge method squash
+- color: cc40d8
+  name: merge/rebase
+  description: Merge method rebase, which is also the default
 
 # Kind
 - color: 3410B8

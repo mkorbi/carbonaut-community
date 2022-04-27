@@ -109,6 +109,14 @@ pull_request:
         member: true
         owner: true
 
+    - prefix: merge
+      multiple: false
+      list: [ "squash", "rebase" ]
+      author_association:
+        collaborator: true
+        member: true
+        owner: true
+
   chat_ops:
     - cmd: /close
       type: close
@@ -136,6 +144,7 @@ pull_request:
       type: label
       label:
         add: /lgtm
+
 
     - cmd: /hold
       type: label

@@ -1,0 +1,78 @@
+# GitHub generic useful labels
+- color: c4d471
+  name: duplicate
+  description: This issue or pull request already exists
+- color: 006B75
+  name: help wanted
+  description: Extra attention is needed
+- color: 7057ff
+  name: good first issue
+  description: Good for newcomers
+- color: 0E8A16
+  name: triage/accepted
+  description: Triage has been accepted
+- color: 0E8A16
+  name: lgtm
+  description: Looks good to me, used to approve PRs
+
+# Hold labels
+- color: D93F0B
+  name: hold/do-not-merge
+  description: Do not merge! - label bots are looking out for
+
+# Needs
+- color: cc40d8
+  name: needs/kind
+  description: Needs kind label
+- color: cc40d8
+  name: needs/priority
+  description: Needs a priority label
+- color: cc40d8
+  name: needs/triage
+  description: Waiting for triage to be accepted
+
+# Kind
+- color: 3410B8
+  name: kind/epic
+  description: EPIC / Tracking issue that is used to bundle a larger effort
+- color: B60205
+  name: kind/bug
+  description: Something isn't working
+- color: D93F0B
+  name: kind/bug-fix
+  description: Changes should fix a bug
+- color: e7e9eb
+  name: kind/feature
+  description: New feature request
+- color: e7e9eb
+  name: kind/question
+  description: Generic question
+- color: e7e9eb
+  name: kind/chore
+  description: Non feature change
+- color: 0075ca
+  name: kind/docs
+  description: Non feature documentation change
+- color: e7e9eb
+  name: kind/refactor
+  description: Non feature refactor change
+- color: B60205
+  name: kind/breaking-change
+  description: Changes made will not be compatible with prior versions - A major breaking change is marked
+- color: e7e9eb
+  name: kind/dependencies
+  description: Pull requests that update a dependency file
+
+# Priority
+- color: B60205
+  name: priority/critical-urgent
+  description: Urgent fix, as fast as possible - priority 4/4
+- color: D93F0B
+  name: priority/urgent
+  description: Will be important soon - priority 3/4
+- color: FBCA04
+  name: priority/important-soon
+  description: Will be important soon - priority 2/4
+- color: 0E8A16
+  name: priority/long-term
+  description: Will be later down the road not any time soon - priority 1/4

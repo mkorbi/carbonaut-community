@@ -31,6 +31,11 @@
   name: needs/triage
   description: Waiting for triage to be accepted
 
+# Merge method
+- color: cc40d8
+  name: merge/squash
+  description: Merge method squash
+
 # Kind
 - color: 3410B8
   name: kind/epic
@@ -48,8 +53,8 @@
   name: kind/question
   description: Generic question
 - color: e7e9eb
-  name: kind/chore
-  description: Non feature change
+  name: kind/governance
+  description: Non feature change that makes governance changes 
 - color: 0075ca
   name: kind/docs
   description: Non feature documentation change

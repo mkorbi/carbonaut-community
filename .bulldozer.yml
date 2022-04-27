@@ -26,7 +26,7 @@ merge:
     labels: ["hold/do-not-merge"]
   method: rebase
   delete_after_merge: true
-  allow_merge_with_no_checks: false
+  allow_merge_with_no_checks: true
 
 update:
   trigger:

@@ -118,6 +118,14 @@ pull_request:
         member: true
         owner: true
 
+    - prefix: warning
+      list: [ "breaking-change" ]
+      author_association:
+        author: true
+        collaborator: true
+        member: true
+        owner: true
+
   chat_ops:
     - cmd: /close
       type: close
@@ -157,13 +165,5 @@ pull_request:
         add: hold/do-not-merge
         remove: [ 'lgtm' ]
       author_association:
-        member: true
-        owner: true
-
-    - prefix: warning
-      list: [ "breaking-change" ]
-      author_association:
-        author: true
-        collaborator: true
         member: true
         owner: true

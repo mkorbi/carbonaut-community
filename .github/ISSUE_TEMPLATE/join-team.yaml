@@ -1,0 +1,65 @@
+name: Join a Carbonaut Team
+description: Use this template if your like to join a Carbonaut team
+title: "[TEAM JOINER]: <enter your GitHub username here>"
+labels: ["kind/governance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to contribute to Carbonaut!
+
+  - type: textarea
+    id: pitch
+    attributes:
+      label: What are your goals by joining the Carbonaut team(s)?
+    validations:
+      required: true
+
+  - type: textarea
+    id: contribution
+    attributes:
+      label: How have you contributed to Carbonaut so far? 
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: Requirements
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/carbonaut-cloud/community/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree read follow this project's Code of Conduct
+          required: true
+        - label: I joined Carbonaut Slack, follow our [contributing documentation](https://github.com/carbonaut-cloud/community/blob/main/CONTRIBUTING.md#communication-channels)
+          required: true
+        - label: I will join Carbonaut meetings, follow our [contributing documentation](https://github.com/carbonaut-cloud/community/blob/main/CONTRIBUTING.md#meetings)
+          required: false
+        - label: I am a member of the Carbonaut organization
+          required: false
+
+  - type: dropdown
+    id: teams
+    attributes:
+      label: Which team(s) would you like to join?
+      multiple: true
+      options:
+        - carbonaut-cloud/development
+        - carbonaut-cloud/architecture
+        - carbonaut-cloud/data
+        - carbonaut-cloud/maintainers
+        - carbonaut-cloud/governance
+
+  - type: textarea
+    id: comments
+    attributes:
+      label: Any other comments? 
+      placeholder: If you have a sponsor who is already part of the team(s), you can tag them here!
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for requesting to join these team(s)!
+
+        cc @carbonaut-cloud/governance

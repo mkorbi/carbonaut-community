@@ -19,5 +19,5 @@ body:
     id: kind
     attributes:
       label: Relevant Kind label(s)
-      description: Please specify a kind label so we can identify your request easier kind feature|bug|epic|doc|clean-up|bug-fix|governance
+      description: Please specify a kind label so we can identify your request easier kind 'feature|bug|epic|doc|clean-up|bug-fix|governance'
       value: /kind

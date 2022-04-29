@@ -28,6 +28,9 @@
 - color: 60774f
   name: lgtm
   description: Looks good to me, used to approve PRs
+- color: 6f3841
+  name: stale
+  description: Abandoned Issues and Pull Requests
 
 # Hold labels
 - color: d84552

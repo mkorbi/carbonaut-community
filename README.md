@@ -35,6 +35,13 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 version 2.1, available
 [here](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html).
 
+## Carbonaut Automation
+
+A few bots are in use to automate various things for the carbonaut project.
+* **policy-bot**: Define approval and disapproval policies that needs to be met before merging pull requests. For example if the label `hold/do-not-merge` is set the PR is not approved.
+* **merge-bot**: Automatically merge pull requests as soon as approval requirements passed.
+* **governance-bot**: The bot is used to enable _slash commands_ and generally streamline the workflow (commands can be found in the [governance.yml](https://github.com/carbonaut-cloud/community/blob/main/.github/governance.yml)).
+
 ## License
 
 Carbonaut is an open specification and open source project.

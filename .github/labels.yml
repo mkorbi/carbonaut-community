@@ -1,41 +1,49 @@
+# COLORS:
+# * Light Red: d84552
+# * Red: b8333e
+# * Dark Red: 6f3841
+# * Green: 60774f
+# * Yellow: fdbe56
+# * Orange: f77042
+# * Light Blue: 3cadd4
+# * Blue: 0078a7
+# * Dark Blue: 474981
+
 # GitHub generic useful labels
-- color: c4d471
+- color: 3cadd4
   name: duplicate
   description: This issue or pull request already exists
-- color: D4C5F9
+- color: 3cadd4
   name: dependencies
   description: Pull requests that update a dependency file
-- color: 006B75
+- color: 3cadd4
   name: help wanted
   description: Extra attention is needed
-- color: 7057ff
+- color: 3cadd4
   name: good first issue
   description: Good for newcomers
-- color: 0E8A16
+- color: 60774f
   name: triage/accepted
   description: Triage has been accepted
-- color: 0E8A16
+- color: 60774f
   name: lgtm
   description: Looks good to me, used to approve PRs
 
 # Hold labels
-- color: D93F0B
+- color: d84552
   name: hold/do-not-merge
   description: Do not merge! - label bots are looking out for
 
 # Warning labels
-- color: B60205
+- color: 6f3841
   name: warning/breaking-change
   description: Changes made will not be compatible with prior versions - A major breaking change is marked
 
 # Needs
-- color: cc40d8
+- color: fdbe56
   name: needs/kind
   description: Needs kind label
-- color: cc40d8
-  name: needs/priority
-  description: Needs a priority label
-- color: cc40d8
+- color: fdbe56
   name: needs/triage
   description: Waiting for triage to be accepted
 
@@ -48,38 +56,38 @@
   description: Merge method rebase, which is also the default
 
 # Kind
-- color: 3410B8
+- color: 474981
   name: kind/epic
   description: Used for issues tracking a larger effort
-- color: B60205
+- color: b8333e
   name: kind/bug
   description: Something isn't working
-- color: D93F0B
+- color: f77042
   name: kind/bug-fix
   description: Changes should fix a bug
-- color: e7e9eb
+- color: 0078a7
   name: kind/feature
   description: New feature request
-- color: e7e9eb
+- color: 0078a7
   name: kind/governance
   description: Non feature change that makes governance changes 
-- color: 0075ca
+- color: 0078a7
   name: kind/docs
   description: Non feature documentation change
-- color: e7e9eb
+- color: 0078a7
   name: kind/clean-up
   description: Refactoring with no feature changes
 
 # Priority
-- color: B60205
+- color: 6f3841
   name: priority/critical-urgent
   description: Urgent fix, as fast as possible - priority 4/4
-- color: D93F0B
+- color: b8333e
   name: priority/urgent
   description: Will be important soon - priority 3/4
-- color: FBCA04
+- color: f77042
   name: priority/important-soon
   description: Will be important soon - priority 2/4
-- color: 0E8A16
+- color: fdbe56
   name: priority/long-term
   description: Will be later down the road not any time soon - priority 1/4

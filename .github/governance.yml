@@ -16,10 +16,10 @@ issue:
         comment: |
           @$AUTHOR: This issue is currently awaiting triage.
 
-          The triage/accepted label can be added by org members by writing `/triage accepted` in a comment.
+          The triage accepted label can be added by org members by writing `/triage accepted` in a comment.
 
     - prefix: kind
-      list: [ "feature", "doc", "bug-fix", "governance", "clean-up", "epic" ]
+      list: [ "feature", "doc", "bug-fix", "bug", "governance", "clean-up", "epic" ]
       needs:
         comment: |
           @$AUTHOR: There are no 'kind' label on this issue. Please specify a 'kind' label, thank you!
@@ -36,6 +36,7 @@ issue:
       multiple: false
       list: [ "critical-urgent", "urgent", "important-soon", "long-term" ]
       author_association:
+        author: true
         collaborator: true
         member: true
         owner: true
@@ -43,15 +44,10 @@ issue:
     - prefix: warning
       list: [ "breaking-change" ]
       author_association:
+        author: true
         collaborator: true
         member: true
         owner: true
-      needs:
-        status:
-          context: "Warning"
-          description:
-            success: |
-              @carbonaut-cloud/maintainers a warning label has been added to the issue
 
   chat_ops:
     - cmd: /close
@@ -81,14 +77,17 @@ issue:
       type: label
       label:
         add: duplicate
-
+      author_association:
+        collaborator: true
+        member: true
+        owner: true
 #
 # PULL REQUEST COMMANDS
 #
 pull_request:
   labels:
     - prefix: kind
-      list: [ "feature", "doc", "bug-fix", "governance", "clean-up" ]
+      list: [ "feature", "doc", "bug-fix", "bug", "governance", "clean-up" ]
       multiple: false
       needs:
         comment: |
@@ -105,6 +104,7 @@ pull_request:
       multiple: false
       list: [ "critical-urgent", "urgent", "important-soon", "long-term" ]
       author_association:
+        author: true
         collaborator: true
         member: true
         owner: true
@@ -113,6 +113,7 @@ pull_request:
       multiple: false
       list: [ "squash", "rebase" ]
       author_association:
+        author: true
         collaborator: true
         member: true
         owner: true
@@ -129,6 +130,7 @@ pull_request:
     - cmd: /cc
       type: review
       author_association:
+        author: true
         collaborator: true
         member: true
         owner: true
@@ -136,6 +138,7 @@ pull_request:
     - cmd: /assign
       type: assign
       author_association:
+        author: true
         collaborator: true
         member: true
         owner: true
@@ -144,10 +147,23 @@ pull_request:
       type: label
       label:
         add: /lgtm
-
+      author_association:
+        member: true
+        owner: true
 
     - cmd: /hold
       type: label
       label:
         add: hold/do-not-merge
         remove: [ 'lgtm' ]
+      author_association:
+        member: true
+        owner: true
+
+    - prefix: warning
+      list: [ "breaking-change" ]
+      author_association:
+        author: true
+        collaborator: true
+        member: true
+        owner: true

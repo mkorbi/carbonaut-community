@@ -3,40 +3,40 @@ architecture:
   slack: "#arch"
   members:
   - name: Leonard Pahlke
-    github: leonardpahlke
+    github: "leonardpahlke"
 
 data:
   description: Core Carbonaut Data Team
   slack: "#data"
   members:
   - name: Saul O'Driscoll
-    github: liquidsaul
+    github: "liquidsaul"
 
 development:
   description: Core Carbonaut Software Development Team
   slack: "#dev"
   members:
   - name: Leonard Pahlke
-    github: leonardpahlke
+    github: "leonardpahlke"
 
 governance:
   description: Core Carbonaut Software Architecture Team
   slack: "#general"
   members:
   - name: Leonard Pahlke
-    github: leonardpahlke
+    github: "leonardpahlke"
   - name: Max Körbächer
-    github: mkorbi
+    github: "mkorbi"
   - name: Sven Pfennig
-    github: 0xE282B0
+    github: "0xE282B0"
 
 maintainers:
   description: Core Carbonaut Software Architecture Team
   slack: "#general"
   members:
   - name: Leonard Pahlke
-    github: leonardpahlke
+    github: "leonardpahlke"
   - name: Max Körbächer
-    github: mkorbi
+    github: "mkorbi"
   - name: Sven Pfennig
-    github: 0xE282B0
+    github: "0xE282B0"

@@ -1,0 +1,51 @@
+name: Org Membership Request
+description: Use this template if you like to be part of the Carbonaut OSS community
+title: "[ORG MEMBER JOINER]: <enter your GitHub username here>"
+labels: ["kind/governance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to contribute to Carbonaut!
+
+  - type: textarea
+    id: pitch
+    attributes:
+      label: What are your goals by joining the Carbonaut community?
+    validations:
+      required: true
+
+  - type: textarea
+    id: contribution
+    attributes:
+      label: How have you contributed to Carbonaut so far? 
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: Requirements
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/carbonaut-cloud/community/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree read follow this project's Code of Conduct
+          required: true
+        - label: I joined Carbonaut Slack, follow our [contributing documentation](https://github.com/carbonaut-cloud/community/blob/main/CONTRIBUTING.md#communication-channels)
+          required: true
+        - label: _optional_ I will join Carbonaut meetings, follow our [contributing documentation](https://github.com/carbonaut-cloud/community/blob/main/CONTRIBUTING.md#meetings)
+          required: false
+
+  - type: textarea
+    id: comments
+    attributes:
+      label: Any other comments? 
+      placeholder: If you have a sponsor who is already part of the carbonaut organization, you can tag them here!
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for requesting to join the carbonaut organization!
+
+        cc @carbonaut-cloud/governance

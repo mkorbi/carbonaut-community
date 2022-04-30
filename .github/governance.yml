@@ -377,7 +377,6 @@ pull_request:
         member: true
         owner: true
 
-
     - cmd: /remove kind/clean-up
       type: label
       label:

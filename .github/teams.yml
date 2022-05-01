@@ -20,7 +20,7 @@ development:
     github: "leonardpahlke"
 
 governance:
-  description: Core Carbonaut Software Architecture Team
+  description: Core Carbonaut Governance Team
   slack: "#general"
   members:
   - name: Leonard Pahlke
@@ -31,7 +31,7 @@ governance:
     github: "0xE282B0"
 
 maintainers:
-  description: Core Carbonaut Software Architecture Team
+  description: Core Carbonaut Maintainers Team
   slack: "#general"
   members:
   - name: Leonard Pahlke

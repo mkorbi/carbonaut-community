@@ -11,6 +11,8 @@ data:
   members:
   - name: Saul O'Driscoll
     github: "liquidsaul"
+  - name: Leonard Pahlke
+    github: "leonardpahlke"
 
 development:
   description: Core Carbonaut Software Development Team

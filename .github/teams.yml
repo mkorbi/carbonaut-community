@@ -4,13 +4,15 @@ architecture:
   members:
   - name: Leonard Pahlke
     github: "leonardpahlke"
+  - name: Max Körbächer
+    github: "mkorbi"
 
 data:
   description: Core Carbonaut Data Team
   slack: "#data"
   members:
-  - name: Saul O'Driscoll
-    github: "liquidsaul"
+  - name: Christopher Friedrich
+    github: "christopherfriedrich"
   - name: Leonard Pahlke
     github: "leonardpahlke"
 
@@ -20,6 +22,12 @@ development:
   members:
   - name: Leonard Pahlke
     github: "leonardpahlke"
+  - name: Christopher Friedrich
+    github: "christopherfriedrich"
+  - name: Rodrigo Ehlers
+    github: "rodrigoehlers"
+  - name: Berkay
+    github: "bcesur"
 
 governance:
   description: Core Carbonaut Governance Team
@@ -29,8 +37,6 @@ governance:
     github: "leonardpahlke"
   - name: Max Körbächer
     github: "mkorbi"
-  - name: Sven Pfennig
-    github: "0xE282B0"
 
 maintainers:
   description: Core Carbonaut Maintainers Team
@@ -40,5 +46,3 @@ maintainers:
     github: "leonardpahlke"
   - name: Max Körbächer
     github: "mkorbi"
-  - name: Sven Pfennig
-    github: "0xE282B0"
